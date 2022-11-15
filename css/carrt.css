@@ -1,0 +1,23 @@
+table tr td{
+    width: 250px;
+    text-align: center;
+}
+tr td img {
+    margin: 10px 0px 10px 10px;
+}
+h1{
+    text-align: center;
+}
+td input {
+    width: 50px;
+}
+button {
+    border: 1px solid white;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+button:hover {
+    color: red;
+}
