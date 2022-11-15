@@ -11,13 +11,14 @@ h1{
 td input {
     width: 50px;
 }
-button {
+.btn_a {
     border: 1px solid white;
     width: 200px;
     height: 40px;
     border-radius: 10px;
     margin-top: 50px;
 }
-button:hover {
+.btn_a:hover {
     color: red;
-}
+    background-color: bisque;
+} 
