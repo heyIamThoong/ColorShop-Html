@@ -91,10 +91,6 @@
             width: 100%;
         }
     }
-
-    .clearfix a:hover {
-        color: red;
-    }
 </style>
 
 <body>
@@ -185,24 +181,25 @@
             <form action="action_page.php" style="border:1px solid #ccc">
                 <div class="container">
                     <h1>
-                        SIGN IN
+
+                        Password Verification
                     </h1>
                     <p>
-                        Please fill out this form to sigin.</p>
+                        Enter email and phone number for verification
+                        .</p>
                     <hr>
 
-                    <label for="email"><b>User</b></label>
-                    <input type="text" placeholder="Enter user" name="user" required>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
 
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <label for="psw"><b>Phone</b></label>
+                    <input type="text" placeholder="Enter phone" name="phone" required>
                     </p>
 
                     <div class="clearfix">
-                        <a href="login.html">You do not have an account , register ?</a> <br>
-                        <a href="quenmatkhau.html">Forgot password ?</a>
                         <!-- <button type="button" class="cancelbtn">Cancel</button> -->
-                        <button style="text-align : center;" type="submit" class="signup">Sign Up</button>
+                        <button style="text-align : center;" type="submit" class="signup"> Password
+                            Verification</button>
                     </div>
                 </div>
             </form>
